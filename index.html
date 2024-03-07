@@ -1,35 +1,350 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="The senior 2023-2024 Web and App Development portfolio of Shaila Moulee at Thomas A. Edison CTE High School">
-    <meta name="keywords" content="Thomas Edison CTE High School, Senior Portfolio, Shaila Moulee, Jamaica NY, 2023-2024">
-    <meta name="author" content="Shaila Moulee">
-    <title>Shaila Moulee 2023-2024 Web and App Development Senior Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-  </head>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Shaila Moulee | Home</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Londrina+Outline&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <div class="top">
+      <div class="navBar">
+        <ul>
+          <li><a href="about.html" class="navBarContent">ABOUT</a></li>
+          <li><a href="index.html" class="navBarContent">PORTFOLIO</a></li>
+          <li>
+            <div id="menu" class="overlay">
+              <a href="javascript:void(0)" class="crossMenu" onclick="closeMenu()">&times;</a>
+              <div class="overlayContent">
+                <a href="gradeTen.html" class="exploreContent">GRADE 10</a>
+                <a href="gradeEleven.html" class="exploreContent">GRADE 11</a>
+                <a href="gradeTwelve.html" class="exploreContent">GRADE 12</a>
+              </div>
+            </div>
+            <span onclick="openMenu()" class="explore">EXPLORE</span>
+          </li>
+        </ul>
+      </div>
+    </div>
     
-  <body>
-    <div>
-      <h2>LinkedIn Profile</h2>
-      <a href="https://www.linkedin.com/in/shailamoulee/" target="_blank">Connect</a>
+    <div class="scroll">
+      <p class="scrollLeft">Web and App Development</p>
+      <p class="scrollLeft">Web and App Development</p>
+      <p class="scrollLeft">Web and App Development</p>
+    </div>
+    
+    <div class="scroll">
+      <p class="scrollRight">Based in Queens, New York</p>
+      <p class="scrollRight">Based in Queens, New York</p>
+      <p class="scrollRight">Based in Queens, New York</p>
     </div>
 
-    <div>
-      <h2>Student Portfolio(s)</h2>
-      <a href="https://webdesign2022.shailamoulee.repl.co/" target="_blank">Grade 10 Student Portfolio</a><br><br>
-      <a href="https://pythonportfolio23.shailamoulee.repl.co/" target="_blank">Grade 11 Student Portfolio</a><br><br>
-      <a href="https://seniorportfolio.shailamoulee1.repl.co/" target="_blank">Grade 12 Student Portfolio</a>
+    <div class="navBar"">
+      <ul style="border: none;">
+        <li><a href="#about" class="navBarContent">VIEW STATEMENT</a></li>
+        <li><a href="#works" class="navBarContent">VIEW PROJECTS</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mainContainer">
+    <div class="experiences">
+      <div class="container">
+        <h4 class="sectionTitle">/EXPERIENCES</h4>
+        <div class="subContainer">
+          <h1>Exploring the Digital Frontier: <br>Weaving Innovation through Design</h1>
+          <div class="subjects">
+            <div class="subjectArea">
+              <img src="images/webDesign.png" alt="coding">
+              <h2>Web Design</h2>
+              <p>Creating visually engaging and functional websites.</p>
+            </div>
+            
+            <div class="subjectArea">
+              <img src="images/appDesign.png" alt="coding">
+              <h2>App Design</h2>
+              <p>Crafting user-friendly and visually appealing interfaces for mobile applications.</p>
+            </div>
+            
+            <div class="subjectArea">
+              <img src="images/uxDesign.png" alt="coding">
+              <h2>UX Design</h2>
+              <p>Ensuring that every user interaction is intuitive, efficient, and enjoyable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <h2>Senior Project(s)</h2>
-      <a href="https://css-selectors-practice-shailamoulee1.seniorspds-56-fall-2023.repl.co/" target="_blank">College Exploration</a><br><br>
-      <a href="https://hire-me-profile-shailamoulee1.seniorspds-56-fall-2023.repl.co/" target="_blank">HireMe! Profile</a><br><br>
-      <a href="https://unit-4-project-social-media-page-shailamoulee1.seniorspds-56-fall-2023.repl.co/" target="_blank">Social Media Page</a><br><br>
-      <a href="https://shailamoulee.github.io/Shaila-Moulee-Unit-6-Project--Sittis-Hearth-A-Palestinian-Tale" target="_blank">Sitti's Hearth: A Palestinian Tale</a>
+    <div id="about" class="about">
+      <div class="container">
+        <div class="divideContainer">
+          <h4 class="sectionTitle">/ABOUT</h4>
+          <h1>Where innovation and human-centered thinking meet to redefine the digital landscape</h1>
+          <a href="about.html" class="button">LEARN MORE</a>
+        </div>
+        <img src="https://images.pexels.com/photos/4515802/pexels-photo-4515802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image">
+      </div>
     </div>
-  </body>
+
+    <div id="works">
+      <div class="container">
+        <h4 class="sectionTitle">/WORKS</h4>
+        <div class="subContainer">
+          <div class="grade">
+            <img class="gradeWorks" src="https://images.pexels.com/photos/6448986/pexels-photo-6448986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <div class="gradeWorks">
+              <p class="sectionTitle">GRADE 10</p>
+              <h3>Design and Development</h3>
+              <a href="gradeTen.html" class="button">LEARN MORE</a>
+            </div>
+          </div>
+
+          <div class="grade">  
+            <div class="gradeWorks">
+              <p class="sectionTitle">Grade 11</p>
+              <h3>Programming and Prototyping</h3>
+              <a href="gradeEleven.html" class="button">LEARN MORE</a>
+            </div>
+            <img class="gradeWorks" src="https://images.pexels.com/photos/8279377/pexels-photo-8279377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+          </div>
+
+          <div class="grade">
+            <img class="gradeWorks" src="https://images.pexels.com/photos/11016862/pexels-photo-11016862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <div class="gradeWorks">
+              <p class="sectionTitle">Grade 12</p>
+              <h3>Daily Operations and Project Management</h3>
+              <a href="gradeTwelve.html" class="button">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="container">
+      <div class="box">
+        <div class="boxAreas">
+          <div class="pic">
+            <img src="https://images.pexels.com/photos/18998683/pexels-photo-18998683/free-photo-of-rustic-bamboo-fence.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+          </div>
+
+          <div class="recognition">
+            <div class="quote">
+              <p>"Shaila has created an elegant, thoughtful, and beautifully-designed idea and if this is where shes starting from in high school, then I am truly excited to see what she does in the years to come!"</p>
+            </div>
+            <div class="person">
+              <img src="https://images.ctfassets.net/6nwv0fapso8r/pRo-a0m1P00000QMdY7QAL/783ee3c0e7714ee638e3465e592ee68f/Kristina-Rettig-headshot.jpeg">
+              <div class="identity">
+                <h3>Kristina Rettig</h3>
+                <p>TINDER</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="boxAreas">
+          <div class="pic">
+            <img src="https://images.pexels.com/photos/3042375/pexels-photo-3042375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+          </div>
+          
+          <div class="recognition">
+            <div class="quote">
+              <p>"It was mind-blowing to see these sparks of ideas come in during the weekly team huddles, the art of persistence to keep improving, the curious minds thinking out-of-the-box, and the zeal to WIN."</p>
+            </div>
+            <div class="person">
+              <img src="https://media.licdn.com/dms/image/C4E03AQE3F3RYm2ScMA/profile-displayphoto-shrink_800_800/0/1660454696545?e=2147483647&v=beta&t=-GLj2f4MMgFNfYmDJOP6OALzxIL_v70qh51IESGP4Nc">
+              <div class="identity">
+                <h3>Sandeep Misra</h3>
+                <p>INFOSYS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boxAreas">
+          <div class="pic">
+            <img src="https://images.pexels.com/photos/88496/pexels-photo-88496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+          </div>
+
+          <div class="recognition">
+            <div class="quote">
+              <p>"I love how you expanded on different mediums in ways people can interact and participate in ways they deal with grief. Overall, I think you created something that is very innovated and can be used to help millions of folks."</p>
+            </div>
+            <div class="person">
+              <img src="https://media.licdn.com/dms/image/C4D03AQHlW393DzF1iQ/profile-displayphoto-shrink_200_200/0/1532710859716?e=1705536000&v=beta&t=wJpijWK-YOirWo9T14d_sl9xgcqEEXtYoxeVG1Lw_c8">
+              <div class="identity">
+                <h3>Amelia Forrest</h3>
+                <p>MOUSE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boxAreas">
+          <div class="pic">
+            <img src="https://images.pexels.com/photos/3042375/pexels-photo-3042375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+          </div>
+
+          <div class="recognition">
+            <div class="quote">
+              <p>"Impressed by the concept of using art as a form to help overcome loss. Web design showcases beautifully the concept.
+"</p>
+            </div>
+            <div class="person">
+              <img src="https://media.licdn.com/dms/image/C4E03AQEk2KPDurD6Fw/profile-displayphoto-shrink_200_200/0/1651279306761?e=1705536000&v=beta&t=3hgrH_qLkddFKiPi6e9bpBQuUAzlBDtHAWZ3Bs2ZBA4">
+              <div class="identity">
+                <h3>Rudy Bauer</h3>
+                <p>DELL</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boxAreas">
+          <div class="pic">
+            <img src="https://images.pexels.com/photos/88496/pexels-photo-88496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+          </div>
+
+          <div class="recognition">
+            <div class="quote">
+              <p>"You are trying to create a community for artistic youth to share their creativity through numerous outlets while providing a judgement free zone and a place to explore different types of art. Thats amazing!"</p>
+            </div>
+            <div class="person">
+              <img src="https://media.licdn.com/dms/image/D4E03AQFdM2hYjQPxUw/profile-displayphoto-shrink_200_200/0/1687292440838?e=1705536000&v=beta&t=d0Mbz1r7UMA0fzNh2nYr2qHOkVKD5537eFDHrumaD7A">
+              <div class="identity">
+                <h3>Gemelli Briceno</h3>
+                <p>MOUSE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="boxDivider">
+          <div class="subNavBar">
+            <a onclick="plusSlides(-1)">PREV</a>
+          </div>
+          <hr>
+          <div class="subNavBar">
+            <a onclick="plusSlides(1)">NEXT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="mainContainer">
+    <div class="student">
+      <h4 class="sectionTitle">/BEHIND PORTFOLIO/</h4>
+      <h1>Meet the Student</h1>
+      <div class="studentPic">
+        <img src="images/shaila.jpeg">
+        <div class="studentDescription">
+          <p>As a senior at Thomas A. CTE High School, I'm passionate about technology and creativity. I love sharing my enthusiasm for science as an Explainer at the New York Hall of Science and expressing my creativity as a published author at Girls Write Now. Balancing academics with a love for innovation, I'm shaping my path as a budding tech enthusiast and aspiring creator.</p>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div class="achievements">
+      <div class="container">
+        <h4 class="sectionTitle">/ACHIEVEMENTS</h4>
+        <div class="subContainer">
+          
+          <div class="layout">
+            <div class="date">
+              <h2>Jun 2023</h2>
+            </div>
+            <div class="entry">
+              <h2>Emoti-Con Finalist for “Epilogue”</h2>
+            </div>
+          </div>
+
+          <div class="layout">
+            <div class="date">
+              <h2>Jun 2023</h2>
+            </div>
+            <div class="entry">
+              <h2>Infy App Challenge 4.0 First Place for “Bamboo”</h2>
+            </div>
+          </div>
+
+          <div class="layout">
+            <div class="date">
+              <h2>Jan 2023</h2>
+            </div>
+            <div class="entry">
+              <h2>Honorable Mention for “Love in Remembrance”</h2>
+            </div>
+          </div>
+
+          <div class="layout">
+            <div class="date">
+              <h2>Jan 2023</h2>
+            </div>
+            <div class="entry">
+              <h2>Honorable Mention for “Walking on a Shortened Path of Time”</h2>
+            </div>
+          </div>
+
+          <div class="layout">
+            <div class="date">
+              <h2>Jun 2022</h2>
+            </div>
+            <div class="entry">
+              <h2>Emoti-Con Finalist for “Palette of Creativity”</h2>
+            </div>
+          </div>
+
+          <div class="layout">
+            <div class="date">
+              <h2>Feb 2022</h2>
+            </div>
+            <div class="entry">
+              <h2>Honorable Mention for “Dear Forgotten Children”</h2>
+            </div>
+          </div>
+
+          <div class="layout"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="info">
+        <h4 class="sectionTitle">/LET'S TALK/</h4>
+        <h1>Ready to work towards a brighter tommorow?</h1>
+        <a href="https://www.linkedin.com/in/shailamoulee/" target="_blank" class="button">CONNECT</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="sections">
+      <div class="sectionsArea">
+        <a href="index.html" class="button">HOME</a>
+        <a href="about.html" class="button">ABOUT</a>
+        <a href="https://www.linkedin.com/in/shailamoulee/" target="_blank" class="button">CONTACT</a>
+      </div>
+      
+      <div class="sectionsArea">
+        <a href="gradeTen.html" class="button">GRADE 10</a>
+        <a href="gradeEleven.html" class="button">GRADE 11</a>
+        <a href="gradeTwelve.html" class="button">GRADE 12</a>
+      </div>
+    </div>
+    <hr>
+    <p>&copy; 2024 Shaila Moulee</p>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+
 </html>
-
