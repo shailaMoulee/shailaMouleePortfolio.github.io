@@ -50,6 +50,9 @@ h1 {
   letter-spacing: 5px;
 }
 
+a {
+  text-decoration: none;
+}
 
 
 /*Header Section*/
